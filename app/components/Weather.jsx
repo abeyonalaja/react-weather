@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import WeatherForm from './WeatherForm';
 
 export default function Weather() {
   return (
-    <h3>Weather Component</h3>
+    <div className="">
+      <h3>Weather Component</h3>
+      <WeatherForm />
+    </div>
   );
 };
